@@ -131,7 +131,7 @@ function AppRoutes() {
                 </motion.main>
               }
             />
-            {/* <Route
+            <Route
               path="*"
               element={
                 <motion.main
@@ -144,7 +144,7 @@ function AppRoutes() {
                   <Home />
                 </motion.main>
               }
-            /> */}
+            />
           </Routes>
         </AnimatePresence>
       </div>

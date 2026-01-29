@@ -20,15 +20,6 @@ function Project() {
       github: "https://github.com/Hannank485/FinSite",
       demo: "https://fin-site.vercel.app/",
     },
-    {
-      date: 2026,
-      name: "Coming Soon",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem saepe mollitia ea eos omnis libero. Quisquam dolore laboriosam deserunt provident!",
-      skills: ["Skill", "Skill", "Skill"],
-      github: "https://github.com/Hannank485",
-      demo: "/",
-    },
   ];
   return (
     <motion.div

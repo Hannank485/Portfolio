@@ -7,11 +7,8 @@ function Navbar({ setOpen }: { setOpen: () => void }) {
   return (
     <nav className="sticky w-screen z-40 top-0 py-3 md:py-5 px-10 md:px-20 border-b border-b-border flex items-center justify-between backdrop-blur-2xl shadow-sm select-none ">
       <Link to="/">
-<<<<<<< HEAD
         <img src={logo} alt="" width={60} />
-=======
         <img src="assets/logo.svg" alt="" width={60} />
->>>>>>> c75c450f0b087419e3004e29372da6580978ee52
       </Link>
       <button onClick={setOpen}>
         <GiHamburgerMenu className="text-lg block  md:hidden cursor-pointer" />

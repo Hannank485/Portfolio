@@ -72,7 +72,7 @@ function FirstAnimation({ setFinish }: { setFinish: () => void | null }) {
                       ease: easeOut,
                       delay: 1.2,
                     }}
-                    className="font-[Unbounded]! font-medium leading-none"
+                    className="heading font-medium leading-none"
                   >
                     {char === " " ? "\u00A0" : char}
                   </motion.h1>

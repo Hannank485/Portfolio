@@ -131,6 +131,20 @@ function AppRoutes() {
                 </motion.main>
               }
             />
+            {/* <Route
+              path="*"
+              element={
+                <motion.main
+                  initial={{ opacity: 0, y: 0 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.4, ease: "easeInOut" }}
+                  className="min-h-full flex w-full max-w-full flex-1"
+                >
+                  <Home />
+                </motion.main>
+              }
+            /> */}
           </Routes>
         </AnimatePresence>
       </div>

@@ -6,7 +6,7 @@ function Navbar({ setOpen }: { setOpen: () => void }) {
   return (
     <nav className="sticky w-screen z-40 top-0 py-3 md:py-5 px-10 md:px-20 border-b border-b-border flex items-center justify-between backdrop-blur-2xl shadow-sm select-none ">
       <Link to="/">
-        <img src="src/assets/images/logo.svg" alt="" width={60} />
+        <img src="public/assets/logo.svg" alt="" width={60} />
       </Link>
       <button onClick={setOpen}>
         <GiHamburgerMenu className="text-lg block  md:hidden cursor-pointer" />

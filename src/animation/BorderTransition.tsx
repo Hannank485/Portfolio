@@ -1,5 +1,5 @@
 import { AnimatePresence, easeInOut, motion } from "motion/react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 function BorderTransition({
   setFinish,
   sidebar,

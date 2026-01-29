@@ -1,13 +1,11 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link, NavLink } from "react-router";
-import logo from "public/assets/logo.svg";
 function Navbar({ setOpen }: { setOpen: () => void }) {
   const hoverEffect =
     "hover:text-primary hover:underline transition-all duration-200 ease-in-out";
   return (
     <nav className="sticky w-screen z-40 top-0 py-3 md:py-5 px-10 md:px-20 border-b border-b-border flex items-center justify-between backdrop-blur-2xl shadow-sm select-none ">
       <Link to="/">
-        <img src={logo} alt="" width={60} />
         <img src="/assets/logo.svg" alt="" width={60} />
       </Link>
       <button onClick={setOpen}>

@@ -5,6 +5,7 @@ import {
   TbBrandReact,
   TbBrandTailwind,
   TbBrandFramerMotion,
+  TbBrandRedux,
 } from "react-icons/tb";
 
 function About() {
@@ -31,9 +32,14 @@ function About() {
       image: <TbBrandTailwind />,
     },
     {
-      skill: "UI Animation",
-      desc: "Framer Motion",
+      skill: "Framer Motion",
+      desc: "UI Animation",
       image: <TbBrandFramerMotion />,
+    },
+    {
+      skill: "Redux Toolkit",
+      desc: "State Management",
+      image: <TbBrandRedux />,
     },
   ];
   return (
@@ -147,8 +153,8 @@ function SkillCard({
         {icon}
       </p>
       <div>
-        <p className="font-semibold text-sm md:text-lg text-primary">{skill}</p>
-        <p className="text-xs text-secondary">{text}</p>
+        <p className="font-semibold text-xs md:text-lg text-primary">{skill}</p>
+        <p className=" text-xs text-secondary">{text}</p>
       </div>
     </div>
   );

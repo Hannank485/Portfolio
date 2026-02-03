@@ -87,6 +87,13 @@ function About() {
             <span className="font-bold text-accent"> React developer </span>, I
             focus on mastering the fundamentals of modern frontend development
             and building interfaces that are clear, intentional, and reliable.
+            <span className="hidden md:inline">
+              <br />
+              <br /> I care deeply about component structure, state management,
+              and predictable data flow, because good interfaces are a result of
+              good logic, not just visual polish. I aim to write code that is
+              readable, maintainable, and scalable, even as requirements evolve.
+            </span>
             <br />
             <br />I care about writing maintainable code and refining the small
             details that shape how users experience an application.

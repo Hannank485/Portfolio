@@ -20,6 +20,15 @@ function Project() {
       github: "https://github.com/Hannank485/FinSite",
       demo: "https://fin-site.vercel.app/",
     },
+    {
+      date: 2026,
+      name: "Portfolio Website",
+      description:
+        "A personal portfolio website built to showcase my frontend skills, highlight selected projects, and demonstrate my approach to clean, intentional interface design.",
+      skills: ["React", "Typescript", "Tailwind CSS", "Framer Motion"],
+      github: "https://github.com/Hannank485/Portfolio",
+      demo: "https://hannankhan-dev.vercel.app/",
+    },
   ];
   return (
     <motion.div

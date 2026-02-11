@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes, useLocation } from "react-router";
 import BorderTransition from "./animation/BorderTransition";
-import "./App.css";
 import { useEffect, useState } from "react";
 import FirstAnimation from "./animation/FirstAnimation";
 import Navbar from "./Components/Navbar";

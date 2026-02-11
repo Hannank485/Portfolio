@@ -13,21 +13,38 @@ function Project() {
   const project: projectType[] = [
     {
       date: 2026,
+      name: "My Task",
+      description:
+        "A production-ready full-stack task management system featuring JWT-based authentication with HTTP-only cookies, protected routes,rate limitting middleware and a scalable REST API backed by PostgreSQL and Prisma.",
+      skills: [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Prisma",
+      ],
+      github: "https://github.com/Hannank485/FullStack-Todo-App",
+      demo: "https://full-stack-todo-app-eta-seven.vercel.app/",
+    },
+
+    {
+      date: 2026,
+      name: "CULT",
+      description:
+        "A high-impact animated landing page inspired by modern brutalist design, built to explore advanced typography, motion layering, and immersive visual storytelling through interactive UI patterns.",
+      skills: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      github: "https://github.com/Hannank485/CULT-LandingPage",
+      demo: "https://cult-landing-page-ten.vercel.app/",
+    },
+    {
+      date: 2026,
       name: "FinSite",
       description:
         "An interactive investment calculator that guides users through SIP and Lump Sum planning with accurate projections a clean, step-based experience.",
       skills: ["React", "Typescript", "Tailwind CSS"],
       github: "https://github.com/Hannank485/FinSite",
       demo: "https://fin-site.vercel.app/",
-    },
-    {
-      date: 2026,
-      name: "Portfolio Website",
-      description:
-        "A personal portfolio website built to showcase my frontend skills, highlight selected projects, and demonstrate my approach to clean, intentional interface design.",
-      skills: ["React", "Typescript", "Tailwind CSS", "Framer Motion"],
-      github: "https://github.com/Hannank485/Portfolio",
-      demo: "https://hannankhan-dev.vercel.app/",
     },
   ];
   return (

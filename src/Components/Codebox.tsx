@@ -6,18 +6,13 @@ function Codebox() {
   hljs.registerLanguage("javascript", javascript);
   const text = `const developer = {
   name: "Abdul Hannan Khan",
-  title: "Front-End Developer",
-  focus: "React & UI Engineering",
-  skills: [
-    "React",
-    "TypeScript",
-    "Tailwind CSS",
-    "Motion"
-  ],
+  title: "Full Stack Developer",
+  focus: "React, APIs & System Design",
+  skills: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Prisma"],
   likes: [
     "Coffee that's stronger than my WiFi",
-    "Clean layouts",
-    "Well-structured UI"
+    "Clean architecture",
+    "Well-structured systems"
   ],
   availability: "Open to opportunities"
 };`;
@@ -25,7 +20,7 @@ function Codebox() {
   const [typed, setTyped] = useState<string>("");
   useEffect(() => {
     let i = 0;
-    let Interval: ReturnType<typeof setInterval> | null = null;
+    const Interval: ReturnType<typeof setInterval> | null = null;
     const Timeout = setTimeout(() => {
       const Interval = setInterval(() => {
         setTyped(text.slice(0, i + 1));
@@ -67,10 +62,7 @@ function Codebox() {
 
         {/* Code */}
         <pre className="whitespace-pre ">
-          <code
-            className=""
-            dangerouslySetInnerHTML={{ __html: highlightedCode }}
-          />
+          <code dangerouslySetInnerHTML={{ __html: highlightedCode }} />
         </pre>
       </div>
     </>

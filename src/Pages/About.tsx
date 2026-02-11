@@ -1,12 +1,8 @@
 import { easeOut, motion } from "motion/react";
 import { FadeIn, FadeInUp } from "../animation/Animation";
-import {
-  TbBrandTypescript,
-  TbBrandReact,
-  TbBrandTailwind,
-  TbBrandFramerMotion,
-  TbBrandRedux,
-} from "react-icons/tb";
+import { TbBrandTypescript, TbBrandReact } from "react-icons/tb";
+import { RiNodejsLine } from "react-icons/ri";
+import { SiExpress, SiPostgresql, SiPrisma } from "react-icons/si";
 
 function About() {
   type skillType = {
@@ -26,20 +22,26 @@ function About() {
       desc: "Production use",
       image: <TbBrandTypescript />,
     },
+
     {
-      skill: "Tailwind CSS",
-      desc: "Primary styling tool",
-      image: <TbBrandTailwind />,
+      skill: "Node.js",
+      desc: "Backend Runtime Environment",
+      image: <RiNodejsLine />,
     },
     {
-      skill: "Framer Motion",
-      desc: "UI Animation",
-      image: <TbBrandFramerMotion />,
+      skill: "Express.js",
+      desc: "REST API Development",
+      image: <SiExpress />,
     },
     {
-      skill: "Redux Toolkit",
-      desc: "State Management",
-      image: <TbBrandRedux />,
+      skill: "PostgreSQL",
+      desc: "Relational Database Management",
+      image: <SiPostgresql />,
+    },
+    {
+      skill: "Prisma",
+      desc: "ORM & Database Modeling",
+      image: <SiPrisma />,
     },
   ];
   return (
@@ -64,8 +66,8 @@ function About() {
           About Me
         </h2>
         <p className="text-sm md:text-xl text-secondary">
-          React developer focused on building clean, responsive interfaces with
-          careful attention to interaction and detail.
+          Full Stack developer focused on building clean, scalable web
+          applications with careful attention to architecture and detail.
         </p>
       </motion.div>
       <motion.div
@@ -83,20 +85,25 @@ function About() {
           <p className="text-accent font-semibold leading-relaxed">THE STORY</p>
           <p>
             My interest in web development started with a curiosity about how
-            things work beneath the interface. As a
-            <span className="font-bold text-accent"> React developer </span>, I
-            focus on mastering the fundamentals of modern frontend development
-            and building interfaces that are clear, intentional, and reliable.
+            systems work beneath the surface. As a
+            <span className="font-bold text-accent">
+              {" "}
+              Full Stack developer{" "}
+            </span>
+            , I focus on building scalable web applications with strong
+            foundations in both frontend architecture and backend systems.
             <span className="hidden md:inline">
               <br />
               <br /> I care deeply about component structure, state management,
-              and predictable data flow, because good interfaces are a result of
-              good logic, not just visual polish. I aim to write code that is
-              readable, maintainable, and scalable, even as requirements evolve.
+              API design, and predictable data flow, because reliable
+              applications are built on sound logic, not just visual polish. I
+              aim to write code that is readable, maintainable, and adaptable as
+              requirements evolve.
             </span>
             <br />
-            <br />I care about writing maintainable code and refining the small
-            details that shape how users experience an application.
+            <br />I prioritize clean architecture, secure authentication
+            patterns, and the small implementation details that shape real-world
+            user experience.
           </p>
         </section>
         <section className="flex-1/3 mt-3 md:mt-0 text-sm h-full">
@@ -133,9 +140,9 @@ function About() {
         <aside className="border-border/30 border bg-card/30 text-xs md:text-sm rounded-2xl p-2">
           <p className="text-accent mt-3  font-semibold ">ALWAYS LEARNING</p>
           <p className="text-secondary mt-2">
-            I’m currently strengthening my frontend foundation with{" "}
-            <strong>Framer Motion</strong>, and preparing to move into{" "}
-            <strong>Next.js</strong>.
+            I’m currently refining both frontend and backend foundations with{" "}
+            <strong>Framer Motion</strong>, secure API design, and{" "}
+            <strong>Redux Toolkit</strong> for scalable state management.
           </p>
         </aside>
       </motion.div>

@@ -10,8 +10,9 @@ import Codebox from "../Components/Codebox";
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { ButtonAnim } from "../animation/Animation";
+const MotionLink = motion.create(Link);
+
 function Home() {
-  const MotionLink = motion.create(Link);
   const greetings = [
     "Hi",
     "Hola",
@@ -92,9 +93,9 @@ function Home() {
         </p>
         {/* extra text */}
         <p className="text-sm md:text-xl text-secondary">
-          <strong>React Developer</strong> passionate about crafting clean,
-          responsive interfaces that users love. I turn designs into functional
-          experiences.
+          <strong>Full Stack Developer</strong> focused on building sSecure,
+          scalable web applications built with React, TypeScript, and Node.js.
+          Clean interfaces. Robust APIs. Production-ready systems.
         </p>
         <div className="flex gap-4">
           <MotionLink

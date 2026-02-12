@@ -10,7 +10,7 @@ function Codebox() {
   focus: "React, APIs & System Design",
   skills: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Prisma"],
   likes: [
-    "Coffee that's stronger than my WiFi",
+    "Coffee that's stronger than my WiFi",a
     "Clean architecture",
     "Well-structured systems"
   ],
@@ -61,7 +61,7 @@ function Codebox() {
         </div>
 
         {/* Code */}
-        <pre className="whitespace-pre ">
+        <pre className="whitespace-pre-wrap md:whitespace-pre ">
           <code dangerouslySetInnerHTML={{ __html: highlightedCode }} />
         </pre>
       </div>

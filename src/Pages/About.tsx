@@ -130,10 +130,12 @@ function About() {
               <span className="absolute -left-4 top-1/2 -translate-y-1/2 text-xs w-1.5 bg-accent h-1.5 rounded-full"></span>
               React Developer
             </p>
-            <p className="ml-4 text-accent">Personal Projects•2025 - Present</p>
+            <p className="ml-4 text-accent">
+              Personal Projects • 2025 - Present
+            </p>
             <p className="text-secondary ml-4 mt-1">
               Building responsive web applications using React, TypeScript, and
-              Tailwind CSS.
+              Tailwind CSS, Node.js and PostgreSQL.
             </p>
           </div>
         </section>

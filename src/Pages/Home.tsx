@@ -93,7 +93,7 @@ function Home() {
         </p>
         {/* extra text */}
         <p className="text-sm md:text-xl text-secondary">
-          <strong>Full Stack Developer</strong> focused on building sSecure,
+          <strong>Full Stack Developer</strong> focused on building Secure,
           scalable web applications built with React, TypeScript, and Node.js.
           Clean interfaces. Robust APIs. Production-ready systems.
         </p>

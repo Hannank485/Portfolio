@@ -93,9 +93,10 @@ function Home() {
         </p>
         {/* extra text */}
         <p className="text-sm md:text-xl text-secondary">
-          <strong>Full Stack Developer</strong> focused on building Secure,
-          scalable web applications built with React, TypeScript, and Node.js.
-          Clean interfaces. Robust APIs. Production-ready systems.
+          <strong>Full Stack Developer</strong> building backend-focused web
+          applications with React, TypeScript, Node.js, and PostgreSQL.
+          Experienced in designing REST APIs, authentication systems, and
+          AI-powered features.
         </p>
         <div className="flex gap-4">
           <MotionLink

@@ -4,7 +4,7 @@ import { fadeInOut, parentStagger } from "../animation/Animation";
 import { NavLink } from "react-router";
 function Sidebar({ setOpen }: { setOpen: () => void }) {
   const li =
-    "text-3xl brightness-90 text-secondary w-fit self-center  cursor-pointer transition-all";
+    "text-3xl brightness-90 text-secondary w-fit self-center  cursor-pointer transition-all font-medium tracking-wider";
   return (
     // SIDEBAR ANIMATIOn
     <motion.aside
@@ -47,13 +47,15 @@ function Sidebar({ setOpen }: { setOpen: () => void }) {
           exit="exit"
           initial="hidden"
           animate="visible"
-          className="flex flex-col text-center gap-5"
+          className="flex flex-col text-center gap-5 space-y-6"
         >
           <motion.li variants={fadeInOut}>
             <NavLink
               to="/"
               className={({ isActive }) =>
-                isActive ? "underline text-3xl  text-accent font-bold" : li
+                isActive
+                  ? "bg-purple-100 text-accent rounded-xl px-3 py-2 text-3xl"
+                  : li
               }
               onClick={setOpen}
             >
@@ -64,7 +66,9 @@ function Sidebar({ setOpen }: { setOpen: () => void }) {
             <NavLink
               to="/about"
               className={({ isActive }) =>
-                isActive ? "underline text-3xl  text-accent font-bold" : li
+                isActive
+                  ? "bg-purple-100 text-accent rounded-xl px-3 py-2 text-3xl"
+                  : li
               }
               onClick={setOpen}
             >
@@ -75,7 +79,9 @@ function Sidebar({ setOpen }: { setOpen: () => void }) {
             <NavLink
               to="/project"
               className={({ isActive }) =>
-                isActive ? "underline text-3xl text-accent" : li
+                isActive
+                  ? "bg-purple-100 text-accent rounded-xl px-3 py-2 text-3xl"
+                  : li
               }
               onClick={setOpen}
             >
@@ -86,7 +92,9 @@ function Sidebar({ setOpen }: { setOpen: () => void }) {
             <NavLink
               to="/contact"
               className={({ isActive }) =>
-                isActive ? "underline text-3xl text-accent" : li
+                isActive
+                  ? "bg-purple-100 text-accent rounded-xl px-3 py-2 text-3xl"
+                  : li
               }
               onClick={setOpen}
             >

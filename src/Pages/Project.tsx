@@ -13,6 +13,23 @@ function Project() {
   const project: projectType[] = [
     {
       date: 2026,
+      name: "PaperWise",
+      description:
+        "A production-ready full-stack AI research assistant built with a scalable REST architecture, secure JWT authentication, and PostgreSQL-backed vector storage. Implements a complete RAG pipeline that parses PDFs, generates embeddings, performs pgvector similarity search, and returns context-aware responses using the OpenAI API.",
+      skills: [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Prisma",
+        "OpenAI",
+      ],
+      github: "https://github.com/Hannank485/Paperwise",
+      demo: "https://paperwise-five.vercel.app/",
+    },
+    {
+      date: 2026,
       name: "My Task",
       description:
         "A production-ready full-stack task management system featuring JWT-based authentication with HTTP-only cookies, protected routes,rate limitting middleware and a scalable REST API backed by PostgreSQL and Prisma.",

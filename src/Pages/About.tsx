@@ -142,9 +142,9 @@ function About() {
         <aside className="border-border/30 border bg-card/30 text-xs md:text-sm rounded-2xl p-2">
           <p className="text-accent mt-3  font-semibold ">ALWAYS LEARNING</p>
           <p className="text-secondary mt-2">
-            I’m currently refining both frontend and backend foundations with{" "}
-            <strong>Framer Motion</strong>, secure API design, and{" "}
-            <strong>Redux Toolkit</strong> for scalable state management.
+            I’m currently strengthening my backend and system fundamentals,
+            improving secure API design, and learning Python and Linux
+            networking to broaden my engineering foundation.
           </p>
         </aside>
       </motion.div>
